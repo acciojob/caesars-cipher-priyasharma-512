@@ -39,7 +39,7 @@ function rot13(encodedStr) {
 				decodedArr.push(str[i])
 			decodedArr.push(lookup[str[i]])
 		}
-	return decodedArr;
+	return decodedArr.join("");
 }
 
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
